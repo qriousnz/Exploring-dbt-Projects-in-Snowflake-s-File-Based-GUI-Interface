@@ -1,3 +1,5 @@
-name: 'dbt-project'
-version: 1.0
-config-version: 2
+models:
+  Exploring-dbt-Projects-in-Snowflake-s-File-Based-GUI-Interface:
+    l10_staging:
+      schema: L10_STAGING
+      materialized: view
